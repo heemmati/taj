@@ -3648,8 +3648,8 @@ ul.respond-detile li {
 .hints i {
     color: #5d5d5d;
     font-size: 20px;
-    border: 1px solid #ffbbbe;
-    background-color: #fff5f5;
+    border: 1px solid var(--second2);
+    background-color: var(--third2);
     border-radius: 50%;
     float: right;
     padding: 20px 26px;
@@ -14865,8 +14865,9 @@ ul.single-social:before{
     font-size: 17px;
     font-weight: 200;
     text-align: justify;
-    line-height: normal;
+    line-height: 1.85;
     margin: 14px 0px !important;
+    color: #262626;
 }
 
 .post-content a{
